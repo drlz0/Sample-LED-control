@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sample LED control</string>
+    <string name="ledon_k">LED ON</string>
+    <string name="ledoff_k">LED OFF</string>
+    <string name="connect_k">CONNECT</string>
+    <string name="paired_k">SEARCH</string>
+    <string name="paired_kk">Paired:</string>
+</resources>

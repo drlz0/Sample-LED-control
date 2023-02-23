@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/searchDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginStart="80dp"
+        android:padding="8dp"
+        android:text="@string/paired_k" />
+
+    <Button
+        android:id="@+id/connect_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginStart="220dp"
+        android:padding="8dp"
+        android:text="@string/connect_k" />
+
+    <Button
+        android:id="@+id/ledon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connect_b"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="35dp"
+        android:padding="8dp"
+        android:text="@string/ledon_k" />
+
+    <Button
+        android:id="@+id/ledoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchDevices"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="220dp"
+        android:padding="8dp"
+        android:text="@string/ledoff_k" />
+
+    <TextView
+        android:id="@+id/Paired_text"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/paired_kk" />
+
+    <TextView
+        android:id="@+id/BT_devices_txt"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_marginTop="300dp"/>
+
+
+</RelativeLayout>
